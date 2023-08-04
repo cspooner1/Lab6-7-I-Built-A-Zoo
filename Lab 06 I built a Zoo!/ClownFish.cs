@@ -4,11 +4,12 @@ namespace Lab_06_I_built_a_Zoo_
     public class ClownFish : Fish, ISwims
     {
         public bool inWater { get; set; }
-        public void Swim()
+
+        public ClownFish(string gillSize)
         {
-
+            gillsize = gillSize;
         }
-
     }
+
 }
 
